@@ -1,0 +1,58 @@
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url(img/Astronomy.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+}
+
+.col-sm-6, .col-md-4, .col-lg-3 {
+    height: auto;
+    max-width: 280px;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: inherit !important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    opacity: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card img {
+    object-fit: contain;
+    height: 200px;
+    width: 100%;
+    flex-shrink: 0;
+}
+
+.card-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.btn:hover {
+    box-shadow: -5px -5px 23px #a206b0,
+    5px 5px 23px #00f0ff;
+}
+
+.btn {
+transition: box-shadow 0.3s ease;
+}
+
+
