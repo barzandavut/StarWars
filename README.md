@@ -6,7 +6,6 @@ Bu proje, Star Wars gezegenin önemli karakterlerini bir arada bulunuduran, filt
 ## Teknolojiler
 
 - **HTML5**
-- **CSS3**
 - **Bootstrap 5**
 - **JavaScript**
 
